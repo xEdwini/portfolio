@@ -74,3 +74,166 @@ button {
 button:hover {
     background-color: var(--button-hover);
 }
+
+/* About */
+
+#about p{
+    max-width: 900px;
+    line-height: 1.6;
+}
+
+.about-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:20px;
+}
+
+.pill{
+    background:rgba(255,255,255,0.15);
+    padding:10px 16px;
+    border-radius:25px;
+    color:white;
+    text-decoration:none;
+}
+
+/* Cards */
+
+.card{
+    margin-top:25px;
+}
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.company{
+    opacity:0.9;
+}
+
+.date{
+    opacity:0.8;
+}
+
+/* Skills */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.skill-group{
+    background:rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:12px;
+}
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.tag{
+    background:rgba(255,255,255,0.2);
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+/* Projects */
+
+.project-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+.project-info{
+    flex:2;
+}
+
+.project-image{
+    flex:1;
+}
+
+.project-image img{
+    width:100%;
+    max-width:300px;
+    border-radius:12px;
+    object-fit:cover;
+}
+
+#project-points{
+    margin:20px 0;
+    line-height:1.8;
+}
+
+.project-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.project-buttons{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+/* Education */
+
+.education-card{
+    background:rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+}
+
+.education-school{
+    opacity:0.9;
+    font-weight:bold;
+}
+
+.education-date{
+    opacity:0.8;
+    margin-bottom:15px;
+}
+
+/* Contact */
+
+form{
+    display:flex;
+    flex-direction:column;
+    max-width:600px;
+}
+
+label{
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,
+textarea{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+form button{
+    margin-top:20px;
+    width:200px;
+}

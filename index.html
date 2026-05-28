@@ -27,16 +27,44 @@
 
     <main>
 
-        <section id="about">
-            <span class="section-label">01 / About</span>
-            <h2>Who I Am</h2>
-            <p>First-Class Computer Science with Artificial Intelligence graduate from Coventry University. Currently working in Technical Quality Assurance at Outlier AI, focused on AI logic testing and verification. I enjoy solving complex problems, building smart systems, and applying a rigorous analytical mindset to everything I work on.</p>
-            <div class="about-links">
-                <a href="mailto:edwinalex427@gmail.com" class="pill">edwinalex427@gmail.com</a>
-                <a href="https://github.com/xEdwini" target="_blank" class="pill">github.com/xEdwini</a>
-                <span class="pill">Full UK Driving Licence</span>
-            </div>
-        </section>
+    <section id="about">
+
+        <span class="section-label">01 / About</span>
+
+        <h2>Who I Am</h2>
+
+        <p>
+            I'm a First-Class Computer Science with Artificial Intelligence graduate
+            from Coventry University, currently working in Technical Quality Assurance
+            at Outlier AI.
+        </p>
+
+        <p>
+            My interests include Artificial Intelligence, Machine Learning,
+            Software Engineering, and solving complex technical problems through
+            analytical thinking and structured testing.
+        </p>
+
+        <p>
+            I enjoy building intelligent systems, learning new technologies,
+            and applying a detail-oriented approach to everything I work on.
+        </p>
+
+        <div class="about-links">
+
+            <a href="mailto:alexvinue04@gmail.com" class="pill">
+                Email
+            </a>
+
+            <a href="https://github.com/xEdwini"
+            target="_blank"
+            class="pill">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
 
         <section id="experience">
             <span class="section-label">02 / Experience</span>
@@ -59,70 +87,114 @@
         </section>
 
         <section id="projects">
+
             <span class="section-label">03 / Projects</span>
+
             <h2>Project Experience</h2>
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>AI-Based E-Waste Sorting System</h3>
-                        <p class="company">Coventry University</p>
+            <article class="card project-card">
+
+                <div class="project-content">
+
+                    <div class="project-info">
+
+                        <h3 id="project-title">
+                            AI-Based E-Waste Sorting System
+                        </h3>
+
+                        <p id="project-desc">
+                            Developed a computer vision system capable of classifying
+                            electronic waste using deep learning models.
+                        </p>
+
+                        <ul id="project-points">
+
+                            <li>Built custom CNN and MobileNetV2 models.</li>
+                            <li>Processed image datasets for training and testing.</li>
+                            <li>Evaluated model accuracy and performance metrics.</li>
+                            <li>Created a working prototype for real-time classification.</li>
+
+                        </ul>
+
+                        <div id="project-tags" class="project-tags">
+
+                            <span class="tag">Python</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">MobileNetV2</span>
+
+                        </div>
+
                     </div>
-                    <span class="date">Sep 2024 &ndash; May 2025</span>
+
+                    <div class="project-image">
+
+                        <img
+                            id="project-img"
+                            src="images/ewaste.jpg"
+                            alt="Project image">
+
+                    </div>
+
                 </div>
-                <p>Built a Python computer vision system using custom CNN and MobileNetV2 deep learning models to autonomously classify electronic waste in real time. Implemented rigorous data preprocessing pipelines and benchmarked model accuracy using quantitative metrics.</p>
+
             </article>
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>Hospital Readmission Prediction</h3>
-                        <p class="company">Coventry University &mdash; Machine Learning</p>
-                    </div>
-                    <span class="date">Jan 2025 &ndash; May 2025</span>
-                </div>
-                <p>Built and evaluated three ML models across a 70,000+ patient dataset, improving prediction precision from 75% to 90% through feature engineering and hyperparameter tuning. Identified key clinical risk factors with real-world healthcare impact.</p>
-            </article>
+            <div class="project-buttons">
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>Scrum Team Project</h3>
-                        <p class="company">Coventry University &mdash; 1st Class Grade</p>
-                    </div>
-                    <span class="date">Jan 2025 &ndash; May 2025</span>
-                </div>
-                <p>Led a six-person Python development team using Agile/Scrum methodology. Cut app load time by 60% and improved user interaction by 65%. Managed sprint planning, code reviews and delivery within a three-month deadline.</p>
-            </article>
+                <button onclick="showProject(0)">AI Project</button>
+                <button onclick="showProject(1)">Hospital ML</button>
+                <button onclick="showProject(2)">Scrum Team</button>
+
+            </div>
+
         </section>
 
         <section id="education">
-            <span class="section-label">04 / Education</span>
+
+            <span class="section-label">04 / Academics</span>
+
             <h2>Education</h2>
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>BSc Computer Science with Artificial Intelligence</h3>
-                        <p class="company">Coventry University &mdash; First Class Honours</p>
-                    </div>
-                    <span class="date">Sep 2022 &ndash; Jul 2025</span>
-                </div>
-                <p>Achieved First Class Honours across a three-year programme covering programming, software engineering, systems design, AI, mathematics, and data analysis.</p>
-            </article>
+            <div class="education-card">
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>A-Levels: Mathematics, Business, Computer Science</h3>
-                        <p class="company">Kettering Science Academy</p>
-                    </div>
-                    <span class="date">Sep 2020 &ndash; Aug 2022</span>
-                </div>
-                <p>EPQ: <em>'What are Quantum Computers'</em> &mdash; independent research project demonstrating technical writing and self-directed study.</p>
-            </article>
+                <h3>BSc Computer Science with Artificial Intelligence</h3>
+
+                <p class="education-school">
+                    Coventry University — First Class Honours
+                </p>
+
+                <p class="education-date">
+                    Sep 2022 – Jul 2025
+                </p>
+
+                <p>
+                    Achieved First Class Honours across a three-year programme
+                    covering software engineering, artificial intelligence,
+                    systems design, mathematics and data analysis.
+                </p>
+
+            </div>
+
+            <div class="education-card">
+
+                <h3>A-Levels: Mathematics, Business & Computer Science</h3>
+
+                <p class="education-school">
+                    Kettering Science Academy
+                </p>
+
+                <p class="education-date">
+                    Sep 2020 – Aug 2022
+                </p>
+
+                <p>
+                    Completed an EPQ researching quantum computing,
+                    developing technical writing, research and analytical skills.
+                </p>
+
+            </div>
+
         </section>
-
         <section id="skills">
             <span class="section-label">05 / Skills</span>
             <h2>Skills &amp; Certificates</h2>
