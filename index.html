@@ -87,41 +87,66 @@
         </section>
 
         <section id="projects">
+
             <span class="section-label">03 / Projects</span>
+
             <h2>Project Experience</h2>
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>AI-Based E-Waste Sorting System</h3>
-                        <p class="company">Coventry University</p>
+            <article class="card project-card">
+
+                <div class="project-content">
+
+                    <div class="project-info">
+
+                        <h3 id="project-title">
+                            AI-Based E-Waste Sorting System
+                        </h3>
+
+                        <p id="project-desc">
+                            Developed a computer vision system capable of classifying
+                            electronic waste using deep learning models.
+                        </p>
+
+                        <ul id="project-points">
+
+                            <li>Built custom CNN and MobileNetV2 models.</li>
+                            <li>Processed image datasets for training and testing.</li>
+                            <li>Evaluated model accuracy and performance metrics.</li>
+                            <li>Created a working prototype for real-time classification.</li>
+
+                        </ul>
+
+                        <div id="project-tags" class="project-tags">
+
+                            <span class="tag">Python</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">MobileNetV2</span>
+
+                        </div>
+
                     </div>
-                    <span class="date">Sep 2024 &ndash; May 2025</span>
+
+                    <div class="project-image">
+
+                        <img
+                            id="project-img"
+                            src="images/ewaste.jpg"
+                            alt="Project image">
+
+                    </div>
+
                 </div>
-                <p>Built a Python computer vision system using custom CNN and MobileNetV2 deep learning models to autonomously classify electronic waste in real time. Implemented rigorous data preprocessing pipelines and benchmarked model accuracy using quantitative metrics.</p>
+
             </article>
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>Hospital Readmission Prediction</h3>
-                        <p class="company">Coventry University &mdash; Machine Learning</p>
-                    </div>
-                    <span class="date">Jan 2025 &ndash; May 2025</span>
-                </div>
-                <p>Built and evaluated three ML models across a 70,000+ patient dataset, improving prediction precision from 75% to 90% through feature engineering and hyperparameter tuning. Identified key clinical risk factors with real-world healthcare impact.</p>
-            </article>
+            <div class="project-buttons">
 
-            <article class="card">
-                <div class="card-header">
-                    <div>
-                        <h3>Scrum Team Project</h3>
-                        <p class="company">Coventry University &mdash; 1st Class Grade</p>
-                    </div>
-                    <span class="date">Jan 2025 &ndash; May 2025</span>
-                </div>
-                <p>Led a six-person Python development team using Agile/Scrum methodology. Cut app load time by 60% and improved user interaction by 65%. Managed sprint planning, code reviews and delivery within a three-month deadline.</p>
-            </article>
+                <button onclick="showProject(0)">AI Project</button>
+                <button onclick="showProject(1)">Hospital ML</button>
+                <button onclick="showProject(2)">Scrum Team</button>
+
+            </div>
+
         </section>
 
         <section id="education">

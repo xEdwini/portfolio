@@ -23,3 +23,52 @@ form.addEventListener('submit', function(event) {
         return;
     }
 });
+
+const projects = [
+
+{
+    title: "AI-Based E-Waste Sorting System",
+
+    desc: "Built a Python computer vision system using CNN and MobileNetV2 models to classify electronic waste in real time.",
+
+    tags: ["Python", "CNN", "MobileNetV2"]
+},
+
+{
+    title: "Hospital Readmission Prediction",
+
+    desc: "Built machine learning models on a dataset of 70,000+ patients and improved prediction precision from 75% to 90%.",
+
+    tags: ["Python", "Machine Learning", "Data Analysis"]
+},
+
+{
+    title: "Scrum Team Project",
+
+    desc: "Led a six-person development team using Agile Scrum methodology and improved application performance.",
+
+    tags: ["Python", "Scrum", "Leadership"]
+}
+
+];
+
+function showProject(index){
+
+    document.getElementById("project-title").textContent =
+        projects[index].title;
+
+    document.getElementById("project-desc").textContent =
+        projects[index].desc;
+
+    const tagsContainer =
+        document.getElementById("project-tags");
+
+    tagsContainer.innerHTML = "";
+
+    projects[index].tags.forEach(tag => {
+
+        tagsContainer.innerHTML +=
+            `<span class="tag">${tag}</span>`;
+
+    });
+}
