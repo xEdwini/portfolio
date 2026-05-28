@@ -36,6 +36,11 @@ nav{
     padding:15px;
 }
 
+.pill{
+    color: white;
+    text-decoration: none;
+}
+
 nav a{
     color:white;
     text-decoration:none;
@@ -44,6 +49,11 @@ nav a{
 
 nav a:hover{
     color:#2dbf9a;
+}
+
+#about p{
+    max-width:700px;
+    margin-bottom:16px;
 }
 
 section {
