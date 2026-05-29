@@ -15,26 +15,6 @@ body {
     padding: 0;
 }
 
-header{
-    background-color:#1f4f5f;
-    text-align:center;
-    color:white;
-}
-
-header h1{
-    padding-top:40px;
-    font-size:40px;
-}
-
-.tagline{
-    margin-top:10px;
-    margin-bottom:30px;
-}
-
-nav{
-    background-color:#0d1b2a;
-    padding:15px;
-}
 
 nav a{
     color:white;
@@ -236,4 +216,86 @@ textarea{
 form button{
     margin-top:20px;
     width:200px;
+}
+
+.hero{
+    width:90%;
+    margin:30px auto;
+    border-radius:25px;
+
+    background: #103847;
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    overflow:hidden;
+
+    box-shadow:
+    0 0 40px rgba(0,0,0,0.4);
+}
+
+.hero-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:40px 60px;
+}
+
+.logo-box{
+    width:90px;
+    height:90px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border:2px solid #1abc9c;
+    border-radius:15px;
+
+    font-size:32px;
+    font-weight:bold;
+
+    color:#1abc9c;
+}
+
+.hero-center{
+    text-align:center;
+}
+
+.hero-center h1{
+    font-size:64px;
+    margin:0;
+}
+
+.hero-center p{
+    color:#1abc9c;
+    font-size:28px;
+}
+
+.hero-links{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.cv-button{
+    text-decoration:none;
+    color:white;
+
+    border:2px solid #1abc9c;
+
+    padding:15px 25px;
+
+    border-radius:12px;
+}
+
+.hero-nav{
+    background: #0c2933;
+
+    padding:25px;
+
+    display:flex;
+    justify-content:center;
+    gap:60px;
 }
